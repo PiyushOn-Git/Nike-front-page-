@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-top: 20px; 
+    height: 50px;
+    padding-right: 100px;
+}
+
+.nav-comp {
+    display: flex;
+}
+.nav-comp h3 {
+    padding-right: 30px;
+    cursor: pointer;
+}
+.navbar button {
+    background-color: brown; 
+    color: white; 
+    height: 40px;
+    padding: 0 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+.navbar img {
+    align-items: left;
+    height: 50px;
+    width: auto;
+}
